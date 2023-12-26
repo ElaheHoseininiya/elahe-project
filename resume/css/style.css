@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    height: 1200px;
+    width: 900px;
+    background-color:rgb(4, 143, 129);
+    margin:50px auto;
+    border-radius: 31px;
+}
+
+.container .box-resume-right{
+    text-align: center;
+    height: inherit;
+    width: 400px;
+    background-color:rgb(255, 193, 5);
+    float: right;
+    border-radius: 35px;
+}
+.container .box-resume-right .pic img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 15px solid rgb(3, 3, 71) ;
+    margin:50px 100px;
+}
+.container .box-resume-right .name{
+    padding-bottom: 30px;
+}
+.container .box-resume-right .biograghic{
+
+    height: 50px;
+    background-color: rgb(33, 32, 32);
+    color: white;
+    padding: 15px;
+}
+.container .box-resume-right .icons{
+    text-align: right;
+    height: 120px;
+    background-color: rgb(244, 237, 213);
+}
+.container .box-resume-right.icons span{
+    padding-top: 30px;
+}
+
+.container .box-resume-right .language{
+    height: 30px;
+    width: 100px;
+     margin: 20px auto;
+    border: 3px dashed rgb(58, 56, 56);
+    padding-top: 4px;
+}
+.container .box-resume-right .languagetype .text{
+    width: 150px;
+
+    float: right;
+}
+ .container .box-resume-right .languagetype p{
+text-align: right;
+padding: 2px;
+
+} 
+
+.container .box-resume-right .languagetype .icons-star{
+    width: 150px;
+}
+.box-resume-right .skills{
+    width: 100px;
+    height: 30px;
+    border: dashed 3px rgb(49, 47, 47);
+    margin:20px  auto;
+    padding-top: 3px;
+}
+.box-skills{
+    height: 150px;
+}
+.box-skills .names-skill{
+    float: right;
+    padding: 5px;
+}
+.perecent-skill{
+    float: left;
+    padding: 5px;
+}
+
+.box-favorites{
+    width: 130px;
+    height: 30px;
+    border: dashed 3px rgb(49, 47, 47);
+    margin:20px  auto;
+    padding-top: 3px;
+}
+.about-favorites{
+     padding: 30px;
+}
+.Description{
+    
+    height: 200px;
+    width: 500px;
+    padding: 50px;
+    text-align: justify;
+}
+
+.work-experience{
+    height: 171px;
+    width: 500px;
+    /* background-color: rgb(222, 204, 197); */
+
+}
+
+ .titel{
+    height: 50px;
+    background-color: rgb(35, 35, 34);
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+}
+.box-resume-left .description{
+ text-align: right;
+
+    color: rgb(250, 248, 252);
+
+}
