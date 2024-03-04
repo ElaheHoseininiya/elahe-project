@@ -95,12 +95,22 @@ ul li:hover {
 
   font-weight: bold;
   border-radius: 5px;
-}
 
+}
+.dropdown li:hover{
+    .arrow-back{
+    display: block;
+    color:rgb(201, 91, 223) ;
+  
+  }
+}
 .arrow-back {
   float: left;
   transition-delay: 1s;
   transition-duration: 0.5s;
+  display: none;
+    transition-duration: 2s;
+    transition-delay: 1s;
 }
 
 ul li:hover ul.dropdown {
