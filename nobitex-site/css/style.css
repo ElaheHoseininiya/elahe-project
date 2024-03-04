@@ -3,12 +3,16 @@
   margin: 0;
   box-sizing: border-box;
 }
-
+body {
+  font-family: "Vazirmatn", sans-serif;
+}
 .container {
   height: 100vh;
 }
 .menu {
   background-color: rgba(187, 184, 184, 0.2);
+  position: sticky;
+  top: 0;
 }
 .logo {
   width: 10%;
@@ -30,17 +34,28 @@ ul li {
   display: inline-block;
   position: relative;
 }
+li span {
+  position: relative;
+  top: 10px;
+}
+
 ul li a {
   display: block;
-  padding: 20px 25px;
+  padding: 5px 25px;
   color: #6c6868;
   text-decoration: none;
   font-size: 15px;
 }
-
+.dropdown {
+  border: 2px solid rgb(128, 128, 128, 0.2);
+  border-radius: 5px;
+  background-color: #ffffff;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
 .dropdown li {
   display: inline-block;
-  width: 150px;
+  padding: 0;
+  width: 160px;
   height: 50px;
 }
 .dropdown a {
@@ -55,13 +70,51 @@ ul li ul.dropdown {
   z-index: 100;
   display: none;
 }
+.expand-more {
+  display: inline-block;
+}
+.expand_less {
+  display: inline-block;
+  color: rgb(112, 80, 191);
+  display: none;
+}
 
+ul li:hover {
+  .orginal-title {
+    color: rgb(112, 80, 191);
+  }
+  .expand-more {
+    display: none;
+  }
+  .expand_less {
+    display: inline-block;
+  }
+}
 .dropdown li a:hover {
   background-color: rgba(225, 132, 244, 0.4);
+
+  font-weight: bold;
+  border-radius: 5px;
 }
+
+.arrow-back {
+  float: left;
+  transition-delay: 1s;
+  transition-duration: 0.5s;
+}
+
 ul li:hover ul.dropdown {
   display: block;
 }
+
+#leader {
+  width: 250px;
+  height: 350px;
+}
+#leader li {
+  width: 200px;
+}
+
 #emkanat {
   width: 480px;
   height: 250px;
