@@ -8,6 +8,7 @@ body {
 }
 .container {
   height: 100vh;
+  margin-bottom: 20px;
 }
 .section1 {
   height: 100%;
@@ -52,22 +53,25 @@ li span {
 
 ul li a {
   display: block;
-  padding: 5px 25px;
+  padding: 0px 25px;
   color: #6c6868;
   text-decoration: none;
   font-size: 15px;
 }
+/* ******** */
 .dropdown {
   border: 2px solid rgb(128, 128, 128, 0.2);
   border-radius: 5px;
   background-color: #ffffff;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  padding: 10px;
 }
 .dropdown li {
   display: inline-block;
   padding: 0;
   width: 160px;
   height: 50px;
+  position: relative;
 }
 .dropdown a {
   padding-right: 5px;
@@ -109,18 +113,17 @@ ul li:hover {
 }
 .dropdown li:hover {
   .arrow-back {
-    /* display: block; */
     color: rgb(201, 91, 223);
     visibility: visible;
     opacity: 1;
   }
 }
 .arrow-back {
-  float: left;
+  position: absolute;
+  left: 0;
+  bottom: 28px;
   visibility: hidden;
-
   transition: opacity 2s;
-
   opacity: 0;
 }
 
@@ -306,3 +309,79 @@ ul li:hover ul.dropdown {
   top: 10px;
   font-weight: bold;
 }
+.section2 {
+  height: 200px;
+  background-color: rgb(80, 53, 148);
+}
+.section2-item {
+  color: white;
+  float: right;
+  width: 25%;
+  text-align: center;
+  padding: 40px;
+}
+.section3 {
+  height: 700px;
+  width: 100%;
+
+  position: relative;
+}
+.section3 .section3-item1 {
+  position: absolute;
+  right: 20px;
+  top: 40px;
+  padding: 20px;
+}
+.section3-item2 {
+  height: 80px;
+  width: 100%; 
+  position: absolute;
+  top: 150px;
+}
+.section3-item2-right {
+  width: 50%;
+  height: inherit;
+  float: right;
+}
+.section3-item2-right .btn {
+  height: 50px;
+  width: 250px;
+  border: 2px solid rgb(228, 230, 240);
+  border-radius: 10px;
+  position: relative;
+  top: 10px;
+  right: 20px;
+  padding-top: 3px;
+  padding-right: 2px;
+}
+
+.section3-item2-right .btn a {
+  text-decoration: none;
+  color: black;
+}
+.btn-insided {
+  height: 40px;
+  width: 120px;
+  
+  border-radius: 10px;
+  text-align: center;
+  padding-top: 8px;
+}
+.section3-item2-right .btn #teter {
+  position: absolute;
+  left: 50px;
+  bottom: 10px;
+  color: #6c6868;
+}
+
+.section3-item2-left {
+  height: inherit;
+  width: 50%;
+  float: left;
+  text-align: left;
+  padding-top: 20px;
+}
+.section3-item2-left a {
+  text-decoration: none;
+}
+
