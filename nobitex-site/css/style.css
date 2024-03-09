@@ -22,9 +22,10 @@ body {
 .menu {
   background-color: rgba(250, 247, 247, 0.9);
   backdrop-filter: blur(7px);
-  position: sticky;
-  top: 0;
+  position: fixed;
+  /* top: 0; */
   z-index: 10000;
+  width: 100%;
 }
 .logo {
   width: 10%;
@@ -323,10 +324,19 @@ ul li:hover ul.dropdown {
 .section3 {
   height: 700px;
   width: 100%;
-
+  background-color: #ababab;
   position: relative;
 }
-.section3 .section3-item1 {
+
+.section3 .section3-title {
+  height: 100px;
+  background-color: aquamarine;
+  padding: 20px;
+}
+.section3 .section3-title h1 {
+  float: right;
+}
+/* .section3 .section3-item1 {
   position: absolute;
   right: 20px;
   top: 40px;
@@ -334,7 +344,7 @@ ul li:hover ul.dropdown {
 }
 .section3-item2 {
   height: 80px;
-  width: 100%; 
+  width: 100%;
   position: absolute;
   top: 150px;
 }
@@ -344,7 +354,7 @@ ul li:hover ul.dropdown {
   float: right;
 }
 .section3-item2-right .btn {
-  height: 50px;
+  height: 45px;
   width: 250px;
   border: 2px solid rgb(228, 230, 240);
   border-radius: 10px;
@@ -362,12 +372,12 @@ ul li:hover ul.dropdown {
 .btn-insided {
   height: 40px;
   width: 120px;
-  
+
   border-radius: 10px;
   text-align: center;
-  padding-top: 8px;
-}
-.section3-item2-right .btn #teter {
+  /* padding-top: 8px; */
+/* } */
+/* .section3-item2-right .btn #teter {
   position: absolute;
   left: 50px;
   bottom: 10px;
@@ -377,11 +387,22 @@ ul li:hover ul.dropdown {
 .section3-item2-left {
   height: inherit;
   width: 50%;
+  padding-left: 30px;
   float: left;
   text-align: left;
   padding-top: 20px;
-}
-.section3-item2-left a {
+} */
+/* .section3-item2-left a {
   text-decoration: none;
-}
+} */
 
+/* .iconleft {
+  position: relative;
+  bottom: 25px;
+  right: 25px;
+}
+.toman {
+  background-color: rgb(228, 230, 240);
+  border-radius: 5px;
+  padding: 5px;
+} */
