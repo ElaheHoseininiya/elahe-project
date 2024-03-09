@@ -321,20 +321,127 @@ ul li:hover ul.dropdown {
   text-align: center;
   padding: 40px;
 }
-.section3 {
+.section3- {
   height: 700px;
   width: 100%;
-  background-color: #ababab;
+  background-color: #e8bcbc;
   position: relative;
+}
+.part-1-section3- {
+  height: 100px;
+  border: 2px solid red;
+}
+
+.part-2-section3- {
+  height: 150px;
+  border: 3px solid blue;
+}
+
+.part-3-section3- {
+  height: 200px;
+  border: 3px solid rgb(0, 255, 140);
 }
 
 .section3 .section3-title {
   height: 100px;
-  background-color: aquamarine;
+  background-color: rgb(253, 248, 255);
   padding: 20px;
 }
 .section3 .section3-title h1 {
   float: right;
+}
+
+/* .section3-pric-title {
+  height: 270px;
+  width: 100%;
+  background-color: rgb(142, 140, 136);
+} */
+/* 
+#section3-ul {
+  background-color: rgb(98, 205, 60);
+}
+#section3-ul li {
+  width: 16%;
+} */
+
+/* .section3-btn {
+  height: 120px;
+  width: 100%;
+  background-color: cadetblue;
+  position: relative;
+} */
+
+.section3-header-right {
+  width: 50%;
+  height: 100px;
+  /* background-color: blueviolet; */
+  /* float: right; */
+  position: absolute;
+  right: 0;
+}
+
+.botton-section-right-outside-body {
+  height: 55px;
+  width: 200px;
+  margin: 20px;
+  border: 2px solid rgb(228, 230, 240);
+  border-radius: 5px;
+}
+.botton-section3-right-inside {
+  height: 40px;
+  width: 100px;
+  margin: 5px;
+  /* margin-left: 5px; */
+  background-color: rgb(228, 230, 240);
+  border-radius: 5px;
+  padding: 7px 30px;
+}
+.botton-section3-right-inside a {
+  text-decoration: none;
+  color: black;
+}
+.teter {
+  float: left;
+  position: relative;
+}
+
+.teter a {
+  color: rgb(253, 248, 255);
+  text-decoration: none;
+  position: absolute;
+  bottom: 10px;
+  left: 45px;
+}
+.section3-header-left {
+  width: 50%;
+  height: 100px;
+  position: absolute;
+  left: 0;
+  /* background-color: brown; */
+  /* float: left; */
+}
+
+#outlined-icon {
+  position: relative;
+  top: 10px;
+}
+
+.section3-text-header-left {
+  float: left;
+  padding-top: 20px;
+}
+.section3-text-header-left a {
+  text-decoration: none;
+}
+
+.section3-menu-main- {
+  height: 50px;
+  width: 100%;
+  background-color: rgb(172, 172, 227);
+}
+
+#section3-ul li {
+  width: 16%;
 }
 /* .section3 .section3-item1 {
   position: absolute;
