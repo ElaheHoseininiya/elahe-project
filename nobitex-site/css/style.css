@@ -321,63 +321,35 @@ ul li:hover ul.dropdown {
   text-align: center;
   padding: 40px;
 }
-.section3- {
-  height: 700px;
+
+.section3 {
+  height: 800px;
   width: 100%;
-  background-color: #e8bcbc;
-  position: relative;
-}
-.part-1-section3- {
-  height: 100px;
   border: 2px solid red;
 }
 
-.part-2-section3- {
-  height: 150px;
-  border: 3px solid blue;
-}
-
-.part-3-section3- {
-  height: 200px;
-  border: 3px solid rgb(0, 255, 140);
-}
-
-.section3 .section3-title {
-  height: 100px;
-  background-color: rgb(253, 248, 255);
+.section3 .section3-part1 {
+  height: 15%;
+  border: 1px solid yellow;
   padding: 20px;
 }
-.section3 .section3-title h1 {
+
+.section3 .section3-part2 {
+  height: 15%;
+  border: 2px solid blue;
+}
+
+.section3 .section3-part2-right {
+  width: 50%;
+  height: 100%;
+  border: 1px solid pink;
   float: right;
 }
-
-/* .section3-pric-title {
-  height: 270px;
-  width: 100%;
-  background-color: rgb(142, 140, 136);
-} */
-/* 
-#section3-ul {
-  background-color: rgb(98, 205, 60);
-}
-#section3-ul li {
-  width: 16%;
-} */
-
-/* .section3-btn {
-  height: 120px;
-  width: 100%;
-  background-color: cadetblue;
-  position: relative;
-} */
-
-.section3-header-right {
+.section3 .section3-part2-left {
   width: 50%;
-  height: 100px;
-  /* background-color: blueviolet; */
-  /* float: right; */
-  position: absolute;
-  right: 0;
+  height: 100%;
+  border: 2px solid rgb(61, 194, 52);
+  float: left;
 }
 
 .botton-section-right-outside-body {
@@ -391,7 +363,7 @@ ul li:hover ul.dropdown {
   height: 40px;
   width: 100px;
   margin: 5px;
-  /* margin-left: 5px; */
+
   background-color: rgb(228, 230, 240);
   border-radius: 5px;
   padding: 7px 30px;
@@ -401,24 +373,17 @@ ul li:hover ul.dropdown {
   color: black;
 }
 .teter {
-  float: left;
+
   position: relative;
+
 }
 
 .teter a {
-  color: rgb(253, 248, 255);
+  color: rgb(131, 128, 132);
   text-decoration: none;
   position: absolute;
   bottom: 10px;
   left: 45px;
-}
-.section3-header-left {
-  width: 50%;
-  height: 100px;
-  position: absolute;
-  left: 0;
-  /* background-color: brown; */
-  /* float: left; */
 }
 
 #outlined-icon {
@@ -432,84 +397,73 @@ ul li:hover ul.dropdown {
 }
 .section3-text-header-left a {
   text-decoration: none;
+  font-size: 18px;
 }
 
-.section3-menu-main- {
-  height: 50px;
+.section3-part3 {
+  height: 70%;
   width: 100%;
-  background-color: rgb(172, 172, 227);
+  border: 2px solid red;
 }
 
-#section3-ul li {
+.section3 .sectionpart3-column {
   width: 16%;
-}
-/* .section3 .section3-item1 {
-  position: absolute;
-  right: 20px;
-  top: 40px;
-  padding: 20px;
-}
-.section3-item2 {
-  height: 80px;
-  width: 100%;
-  position: absolute;
-  top: 150px;
-}
-.section3-item2-right {
-  width: 50%;
-  height: inherit;
+  height: 100%;
+  border: 1px springgreen solid;
   float: right;
 }
-.section3-item2-right .btn {
-  height: 45px;
-  width: 250px;
-  border: 2px solid rgb(228, 230, 240);
-  border-radius: 10px;
-  position: relative;
-  top: 10px;
-  right: 20px;
-  padding-top: 3px;
-  padding-right: 2px;
+
+.section3-part3-line-title {
+
+  height: 10%;
+  border: 2px solid yellow;
 }
 
-.section3-item2-right .btn a {
+.section3-part3-line-title h1 {
+  color: #adaaaa;
+  font-size: 15px;
+  padding-top: 5%;
+}
+
+.section3-part3-line {
+  height: 15%;
+  border: 2px solid rgb(0, 128, 117);
+  padding-top: 12px;
+}
+
+.iconline {
+  float: right;
+}
+.textline {
+  position: relative;
+  right: 10px;
+  padding-top: 12px;
+}
+.textline a {
+  font-size: 18px;
   text-decoration: none;
   color: black;
 }
-.btn-insided {
-  height: 40px;
-  width: 120px;
 
-  border-radius: 10px;
-  text-align: center;
-  /* padding-top: 8px; */
-/* } */
-/* .section3-item2-right .btn #teter {
-  position: absolute;
-  left: 50px;
-  bottom: 10px;
-  color: #6c6868;
-}
-
-.section3-item2-left {
-  height: inherit;
-  width: 50%;
-  padding-left: 30px;
-  float: left;
+.IRT {
   text-align: left;
-  padding-top: 20px;
-} */
-/* .section3-item2-left a {
-  text-decoration: none;
-} */
-
-/* .iconleft {
-  position: relative;
-  bottom: 25px;
-  right: 25px;
+  padding-top: 12px;
 }
-.toman {
-  background-color: rgb(228, 230, 240);
-  border-radius: 5px;
-  padding: 5px;
-} */
+.change {
+  padding-top: 10px;
+  padding-right: 30px;
+}
+.BTC {
+  padding-top: 12px;
+  text-align: left;
+}
+
+.nemodar-img {
+  text-align: center;
+}
+
+
+
+
+
+
