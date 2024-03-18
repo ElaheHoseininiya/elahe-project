@@ -325,30 +325,25 @@ ul li:hover ul.dropdown {
 .section3 {
   height: 800px;
   width: 100%;
-  border: 2px solid red;
 }
 
 .section3 .section3-part1 {
   height: 15%;
-  border: 1px solid yellow;
   padding: 20px;
 }
 
 .section3 .section3-part2 {
   height: 15%;
-  border: 2px solid blue;
 }
 
 .section3 .section3-part2-right {
   width: 50%;
   height: 100%;
-  border: 1px solid pink;
   float: right;
 }
 .section3 .section3-part2-left {
   width: 50%;
   height: 100%;
-  border: 2px solid rgb(61, 194, 52);
   float: left;
 }
 
@@ -373,9 +368,7 @@ ul li:hover ul.dropdown {
   color: black;
 }
 .teter {
-
   position: relative;
-
 }
 
 .teter a {
@@ -403,20 +396,16 @@ ul li:hover ul.dropdown {
 .section3-part3 {
   height: 70%;
   width: 100%;
-  border: 2px solid red;
 }
 
 .section3 .sectionpart3-column {
   width: 16%;
   height: 100%;
-  border: 1px springgreen solid;
   float: right;
 }
 
 .section3-part3-line-title {
-
   height: 10%;
-  border: 2px solid yellow;
 }
 
 .section3-part3-line-title h1 {
@@ -427,20 +416,25 @@ ul li:hover ul.dropdown {
 
 .section3-part3-line {
   height: 15%;
-  border: 2px solid rgb(0, 128, 117);
   padding-top: 12px;
 }
-
+.nemodar-img img {
+  width: 190px;
+}
 .iconline {
   float: right;
+}
+.iconline img {
+  height: 40px;
+  width: 40px;
 }
 .textline {
   position: relative;
   right: 10px;
-  padding-top: 12px;
+  padding-top: 10px;
 }
 .textline a {
-  font-size: 18px;
+  font-size: 15px;
   text-decoration: none;
   color: black;
 }
@@ -448,6 +442,7 @@ ul li:hover ul.dropdown {
 .IRT {
   text-align: left;
   padding-top: 12px;
+  padding-left: 35px;
 }
 .change {
   padding-top: 10px;
@@ -456,14 +451,56 @@ ul li:hover ul.dropdown {
 .BTC {
   padding-top: 12px;
   text-align: left;
+  padding-left: 100px;
 }
-
-.nemodar-img {
+.shop-sale {
+  height: 40px;
+  width: 100px;
+  border: 1px solid rgb(80, 53, 148);
+  border-radius: 10px;
+  text-align: center;
+  padding-top: 3px;
+  margin: 10px auto;
+}
+.shop-sale a {
+  text-decoration: none;
+}
+.shop-sale:hover {
+  background-color: #cfcece;
+}
+#nemodar h1 {
   text-align: center;
 }
 
+.section4 {
+  height: 300px;
+  background-image: url(../image/banner-2.2a5da43part4.webp);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-color: rgb(40, 33, 59);
+}
 
+.text-sexion4 h1 {
+  color: white;
+  padding-top: 80px;
+  padding-bottom: 20px;
+}
 
-
-
-
+.bishtar-bedanid {
+  height: 80px;
+  width: 200px;
+  background-color: white;
+  border-radius: 50px;
+  margin: auto;
+  text-align: center;
+  padding-top: 20px;
+}
+.bishtar-bedanid a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+}
+.text-section4-paragragh {
+  color: white;
+}
