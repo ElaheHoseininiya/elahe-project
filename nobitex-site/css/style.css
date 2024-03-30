@@ -479,28 +479,108 @@ ul li:hover ul.dropdown {
   background-position: left;
   background-color: rgb(40, 33, 59);
 }
-
-.text-sexion4 h1 {
+.section4-stikingfarming-left {
+  width: 40%;
+  height: 100%;
   color: white;
-  padding-top: 80px;
-  padding-bottom: 20px;
+  float: right;
 }
-
+.section4-stikingfarming-left h1 {
+  padding: 50px 50px 20px;
+}
+.section4-stikingfarming-left p {
+  padding: 0 50px;
+  font-weight: bold;
+}
+.section4-bishtarbedanid-right {
+  width: 60%;
+  height: 100%;
+  float: right;
+  position: relative;
+}
 .bishtar-bedanid {
   height: 80px;
   width: 200px;
   background-color: white;
   border-radius: 50px;
-  margin: auto;
   text-align: center;
   padding-top: 20px;
+  position: absolute;
+  top: 50%;
 }
+
 .bishtar-bedanid a {
   text-decoration: none;
   color: black;
   font-size: 20px;
   font-weight: bold;
+  position: relative;
 }
-.text-section4-paragragh {
-  color: white;
+.section5 {
+  height: 800px;
+  width: 100%;
+  background-color: rgb(242, 243, 245);
+}
+.heading-product {
+  padding: 70px 10px 0 0;
+  height: 20%;
+}
+.container-product-section5 {
+  height: 80%;
+  width: 99%;
+  margin: auto;
+  border: 2px solid rgb(228, 230, 240);
+  background-color: #ffffff;
+  border-radius: 10px;
+ 
+}
+.container-product-right {
+  width: 30%;
+  height: 100%;
+  float: right;
+}
+.container-product-left {
+  width: 70%;
+  height: 100%;
+  float: left;
+}
+
+.text-product-right-section5 {
+  height: 25%;
+  border-bottom: 2px solid rgb(246, 245, 255);
+  position: relative;
+}
+.text-product-right-section5:hover {
+  background-color: rgb(246, 245, 255);
+
+
+  .arrowback-section5 {
+    display: block;
+  }
+}
+.topic-product {
+  position: absolute;
+  top: 50%;
+  right: 5%;
+}
+.topic-product a {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 17px;
+}
+.arrowback-section5 {
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  height: 35px;
+  width: 35px;
+  background-color: rgb(107, 77, 189);
+  border-radius: 50%;
+  text-align: center;
+  display: none;
+}
+.arrowback-section5 span {
+  color: #ffffff;
+  padding-top: 5px;
 }
