@@ -517,7 +517,7 @@ ul li:hover ul.dropdown {
   position: relative;
 }
 .section5 {
-  height: 800px;
+  height: 1000px;
   width: 100%;
   background-color: rgb(242, 243, 245);
 }
@@ -526,7 +526,7 @@ ul li:hover ul.dropdown {
   height: 20%;
 }
 .container-product-section5 {
-  height: 80%;
+  height: 75%;
   width: 99%;
   margin: auto;
   border: 2px solid rgb(228, 230, 240);
@@ -589,7 +589,6 @@ ul li:hover ul.dropdown {
 .container-product-left-top {
   height: 50%;
   width: 100%;
-  /* border: 2px solid gray; */
   padding: 20px;
   position: relative;
 }
@@ -606,7 +605,6 @@ ul li:hover ul.dropdown {
 .container-product-left-bottom {
   height: 50%;
   width: 100%;
-  /* border: 1px solid red; */
   position: relative;
 }
 .box-kharid {
@@ -641,9 +639,113 @@ ul li:hover ul.dropdown {
   position: absolute;
   left: 20px;
 }
-.image-1-gain {
+.image-1-gain-loss img {
   height: 30px;
   width: 40px;
-  margin: 30px 0;
+  margin: 18px 0;
+}
+.image-1-gain-loss {
   position: relative;
+}
+.texts-profit-loss {
+  position: absolute;
+  right: 50px;
+  top: 10px;
+}
+.percent-loss {
+  position: absolute;
+  left: 0;
+  top: 10px;
+  text-align: left;
+}
+.number {
+  color: rgb(21, 209, 197);
+}
+.number-loss {
+  color: rgb(245, 137, 146);
+}
+
+.SECTION6 {
+  height: 1500px;
+}
+.SECTION6-part1 {
+  height: 500px;
+}
+
+.SECTION6-part2 {
+  height: 300px;
+  /* background-color: #6c6868; */
+}
+.SECTION6-part3 {
+  height: 500px;
+  /* background-color: yellowgreen; */
+}
+.SECTION6 .figure {
+  width: 33%;
+  height: 500px;
+  float: right;
+  text-align: center;
+}
+.figer-pic {
+  height: 250px;
+  width: 260px;
+  border: 2px solid rgb(195, 193, 193);
+  border-radius: 5px;
+  margin: 50px auto;
+}
+.figer-pic img {
+  height: 250px;
+  width: 250px;
+}
+
+#pic2-section6 img {
+  height: 260px;
+  width: 350px;
+  position: relative;
+  left: 60px;
+}
+
+.figure-caption {
+  padding: 20px;
+}
+
+.figure-caption p {
+  color: rgb(150, 150, 150);
+}
+.heading-security {
+  text-align: center;
+}
+.security-district {
+  width: 33%;
+  height: 125px;
+
+  float: right;
+  /* border: 2px solid red; */
+  padding: 15px;
+  position: relative;
+}
+.security-district h4 {
+  position: absolute;
+  top: 20px;
+  right: 70px;
+}
+.security-district p {
+  color: rgb(163, 163, 163);
+}
+#bordedr-part1 {
+  border-bottom: 2px solid rgb(163, 163, 163);
+  border-left: 2px solid rgb(163, 163, 163);
+}
+#bordedr-part2{
+  border-bottom: 2px solid rgb(163, 163, 163);
+  border-left: 2px solid rgb(163, 163, 163);
+}
+#bordedr-part3{
+  border-bottom: 2px solid rgb(163, 163, 163);
+
+}
+#border-part5{
+  border-left: 2px solid rgb(163, 163, 163);
+  border-right: 2px solid rgb(163, 163, 163);
+
 }
