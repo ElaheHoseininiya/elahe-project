@@ -675,6 +675,7 @@ ul li:hover ul.dropdown {
 .SECTION6-part2 {
   height: 300px;
   /* background-color: #6c6868; */
+  margin-bottom: 300px;
 }
 .SECTION6-part3 {
   height: 500px;
@@ -686,6 +687,7 @@ ul li:hover ul.dropdown {
   float: right;
   text-align: center;
 }
+
 .figer-pic {
   height: 250px;
   width: 260px;
@@ -697,7 +699,9 @@ ul li:hover ul.dropdown {
   height: 250px;
   width: 250px;
 }
-
+.figure {
+  margin-bottom: 150px;
+}
 #pic2-section6 img {
   height: 260px;
   width: 350px;
@@ -715,7 +719,8 @@ ul li:hover ul.dropdown {
 .heading-security {
   text-align: center;
 }
-.security-district {
+
+.security-district-top {
   width: 33%;
   height: 125px;
 
@@ -724,28 +729,80 @@ ul li:hover ul.dropdown {
   padding: 15px;
   position: relative;
 }
-.security-district h4 {
+.security-district-top:hover {
+  background-image: linear-gradient(
+    white,
+    rgb(252, 251, 251),
+    rgba(230, 230, 230, 0.5)
+  );
+}
+.security-district-top h4 {
   position: absolute;
   top: 20px;
   right: 70px;
 }
-.security-district p {
+.security-district-top p {
+  color: rgb(163, 163, 163);
+}
+
+.security-district-bottom {
+  width: 33%;
+  height: 125px;
+
+  float: right;
+  /* border: 2px solid red; */
+  padding: 15px;
+  position: relative;
+}
+.security-district-bottom:hover {
+  background-image: linear-gradient(
+    rgba(230, 230, 230, 0.5),
+    rgb(252, 251, 251),
+    white
+  );
+}
+
+.security-district-bottom h4 {
+  position: absolute;
+  top: 20px;
+  right: 70px;
+}
+.security-district-bottom p {
   color: rgb(163, 163, 163);
 }
 #bordedr-part1 {
   border-bottom: 2px solid rgb(163, 163, 163);
   border-left: 2px solid rgb(163, 163, 163);
 }
-#bordedr-part2{
+#bordedr-part2 {
   border-bottom: 2px solid rgb(163, 163, 163);
   border-left: 2px solid rgb(163, 163, 163);
 }
-#bordedr-part3{
+#bordedr-part3 {
   border-bottom: 2px solid rgb(163, 163, 163);
-
 }
-#border-part5{
+#border-part5 {
   border-left: 2px solid rgb(163, 163, 163);
   border-right: 2px solid rgb(163, 163, 163);
-
+}
+.SECTION6-part3 {
+  padding: 100px;
+}
+.heading-section6-part3 h1 {
+  padding-bottom: 20px;
+}
+.box-image {
+  height: 150px;
+  width: 150px;
+  text-align: center;
+  padding: 30px;
+  margin-top: 50px;
+}
+.box-image a {
+  color: black;
+}
+.box-image:hover {
+  background-color: #f7f5f5;
+  border: 2px solid rgb(163, 163, 163);
+  border-radius: 10px;
 }
