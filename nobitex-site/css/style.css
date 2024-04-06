@@ -796,13 +796,29 @@ ul li:hover ul.dropdown {
   width: 150px;
   text-align: center;
   padding: 30px;
-  margin-top: 50px;
+  margin: 50px auto auto 20px;
+  float: right;
 }
 .box-image a {
   color: black;
+  text-decoration: none;
 }
 .box-image:hover {
   background-color: #f7f5f5;
   border: 2px solid rgb(163, 163, 163);
   border-radius: 10px;
+}
+.Container-left-part3{
+  /* border: 2px solid red; */
+  width: 50%;
+  height: 400px;
+  float: right;
+}
+
+.container-right-pat3{
+  width: 50%;
+  height:600px;
+  /* border: 2px solid red; */
+  float: left;
+  text-align: left;
 }
