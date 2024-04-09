@@ -7,27 +7,25 @@ body {
   font-family: "Vazirmatn", sans-serif;
 }
 .container {
-  height: 100vh;
+  height: 100%;
   margin-bottom: 20px;
 }
 .menu {
   backdrop-filter: blur(40px);
   background-color: hsla(0, 0%, 100%, 0.48);
-  /* position: fixed; */
-  position: sticky;
-  top: 0;
-  z-index: 20000;
+
   width: 100%;
   height: 80px;
   padding: 0 10px;
-  border: 2px solid red;
+  position: sticky;
+  top: 0;
+  z-index: 20000;
 }
 
 .logo {
   width: 10%;
   height: inherit;
   float: right;
-  /* border: 2px solid green; */
 }
 
 .logo-img {
@@ -46,32 +44,17 @@ body {
   text-decoration: none;
 }
 
-/* .logo #nobitex { 
- color: rgb(112, 80, 191);
-  text-decoration: none; */
-/* } */
-/* .logo img{ */
-/* padding-top: 10px; */
-/* } */
 .nav {
-  width: 70%;
+  width: 60%;
   height: inherit;
   float: right;
-  border: 2px solid blue;
-  padding: 20px 0;
+  padding: 30px 10px;
 }
-.box-li {
-  
-  border: 1px solid red;
-}
+
 .orginal-title-text {
-  border: 2px solid rgb(157, 0, 255);
-  /* width: 100px; */
   float: right;
 }
 .icon-orginal-title {
-  border: 2px solid gold;
-  /* width: 50px; */
   float: left;
 }
 ul {
@@ -80,54 +63,30 @@ ul {
 ul li {
   display: inline-block;
   position: relative;
-  /* border: 2px solid rgb(13, 234, 76); */
-  /* width: 15%; */
+  padding: 0 10px;
 }
 li span {
   position: relative;
-  /* top: 10px; */
 }
 
 ul li a {
   display: block;
-  /* padding: 0px 25px; */
   color: #6c6868;
   text-decoration: none;
   font-size: 15px;
 }
 
-.button {
-  width: 20%;
-  height: inherit;
-  border: 2px solid rgb(255, 0, 238);
-  float: left;
-  padding: 20px 0;
-}
-/* .botton {
-  width: 20%;
-
-  float: right;
-} */
-.section1 {
-  height: 100%;
-  background-image: linear-gradient(
-    rgb(204, 208, 255),
-    rgb(204, 208, 255),
-    rgb(237, 240, 255)
-  );
-  position: relative;
-  padding-top: 50px;
-}
-
-/* ******** */
 .dropdown {
   border: 2px solid rgb(128, 128, 128, 0.2);
   border-radius: 5px;
   background-color: #ffffff;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
   padding: 10px;
+}
+
+.internal-box {
   position: relative;
-  top: 55px;
+  margin-top: 50px;
 }
 .dropdown li {
   display: inline-block;
@@ -184,7 +143,6 @@ ul li:hover {
 .arrow-back {
   position: absolute;
   left: 0;
-  bottom: 28px;
   visibility: hidden;
   transition: opacity 2s;
   opacity: 0;
@@ -212,20 +170,26 @@ ul li:hover ul.dropdown {
   width: 155px;
   height: 50px;
 }
-
-.button1 {
+/* ***************************************************** */
+.login-register {
+  width: 30%;
+  height: inherit;
+  float: left;
+  padding: 20px 0;
+}
+.login-button {
   height: 40px;
-  width: 8%;
+  width: 38%;
   display: inline-block;
   border-radius: 10px;
   text-align: center;
   padding-top: 5px;
   border: 2px solid rgb(111, 79, 191);
-  margin-top: 5px;
+  /* margin-top: 5px; */
 }
-.button2 {
+.register-button {
   height: 40px;
-  width: 7%;
+  width: 38%;
   border: 2px solid rgb(112, 80, 191);
   display: inline-block;
   border-radius: 10px;
@@ -236,29 +200,49 @@ ul li:hover ul.dropdown {
     rgb(108, 79, 182)
   );
   padding-top: 5px;
-  margin-top: 5px;
+  /* margin-top: 5px; */
 }
-.button1 a {
+.login-button a {
   color: rgb(124, 95, 197);
   text-decoration: none;
 }
-.button2 a {
+.register-button a {
   color: white;
   text-decoration: none;
 }
-.button2:hover {
+.register-button:hover {
   background-image: linear-gradient(
     to right,
     rgb(65, 46, 115),
     rgb(108, 79, 182)
   );
 }
-.button1:hover {
+.login-button:hover {
   background-color: rgb(237, 236, 252);
 }
 .download {
   float: left;
-  padding: 10px;
+  /* padding: 10px; */
+  border-right: 2px solid rgb(228, 230, 240);
+  padding: 5px;
+}
+.download a {
+  color: black;
+}
+.download a:hover {
+  color: rgb(124, 95, 197);
+}
+
+.section1 {
+  height: 650px;
+  /* border: 2px solid red; */
+  background-image: linear-gradient(
+    rgb(204, 208, 255),
+    rgb(204, 208, 255),
+    rgb(237, 240, 255)
+  );
+  position: relative;
+  padding: 0 20px;
 }
 
 .section1 .S1-left {
@@ -266,6 +250,7 @@ ul li:hover ul.dropdown {
   height: 100%;
   position: absolute;
   left: 0;
+  border: 2px solid red;
 }
 
 .S1-left-top {
@@ -301,18 +286,21 @@ ul li:hover ul.dropdown {
   height: 100%;
   position: absolute;
   right: 0;
+  border: 2px solid rebeccapurple;
 }
 .s1-right-top {
   padding: 40px;
   font-size: 20px;
-  height: 70%;
+  height: 60%;
+  border: 2px solid blue;
 }
 .s1-right-top p {
   color: #6c6868;
   padding-top: 10px;
 }
 .s1-right-bottom {
-  height: 30%;
+  height: 40%;
+  border: 2px solid green;
 }
 .white-box {
   margin: 15px;
