@@ -234,12 +234,12 @@ ul li:hover ul.dropdown {
 }
 
 .section1 {
-  height: 650px;
-  /* border: 2px solid red; */
+  height: 750px;
   background-image: linear-gradient(
-    rgb(204, 208, 255),
-    rgb(204, 208, 255),
-    rgb(237, 240, 255)
+    to right,
+    rgb(201, 205, 255),
+    rgb(235, 239, 255),
+    rgb(201, 206, 255)
   );
   position: relative;
   padding: 0 20px;
@@ -250,31 +250,31 @@ ul li:hover ul.dropdown {
   height: 100%;
   position: absolute;
   left: 0;
-  border: 2px solid red;
 }
 
 .S1-left-top {
-  height: 85%;
+  height: 90%;
 }
 .S1-left-top img {
   height: 100%;
   width: 100%;
 }
 .S1-left-bottom {
-  height: 15%;
+  height: 10%;
 }
-.box {
-  height: 40px;
+.S1-left-bottom .box {
+  height: 50px;
   width: 200px;
   border-radius: 40px;
   position: fixed;
   color: white;
   left: 10px;
-  bottom: 10px;
+  z-index: 20000;
   background-color: rgb(119, 77, 209);
-  padding: 5px 20px;
+  padding: 10px;
+  text-align: center;
 }
-.box a {
+.S1-left-bottom .box a {
   text-decoration: none;
   color: white;
   position: relative;
@@ -282,65 +282,68 @@ ul li:hover ul.dropdown {
 }
 
 .section1 .s1-right {
+  padding: 100px 50px;
   width: 50%;
   height: 100%;
   position: absolute;
   right: 0;
-  border: 2px solid rebeccapurple;
 }
+
 .s1-right-top {
-  padding: 40px;
   font-size: 20px;
   height: 60%;
-  border: 2px solid blue;
 }
 .s1-right-top p {
   color: #6c6868;
-  padding-top: 10px;
+  padding: 20px 0;
 }
-.s1-right-bottom {
-  height: 40%;
-  border: 2px solid green;
-}
-.white-box {
-  margin: 15px;
-  height: 50px;
-  width: 40px;
-  /* background-color: white; */
-  /* border-radius: 10px; */
-}
+
 .s1-right-bottom {
   position: relative;
+  width: 100%;
+  height: 40%;
 }
-.register {
+
+/* input[type="text"] { */
+.phone-number {
   height: 50px;
-  width: 180px;
-  background-image: linear-gradient(
-    to left,
-    rgb(76, 51, 138),
-    rgb(110, 78, 191)
-  );
+  width: 260px;
+  font-size: 18px;
   border-radius: 10px;
-  position: absolute;
-  left: 45px;
-  top: 3px;
-  text-align: center;
-  padding-top: 10px;
-  color: #ffffff;
+  border: none;
+  margin: 10px;
+  padding-right: 10px;
 }
-.register:hover {
+
+.s1-right-bottom-register {
+  width: 150px;
+  height: 50px;
+  border: none;
+  border-radius: 10px;
   background-image: linear-gradient(
     to right,
-    rgb(76, 51, 138),
-    rgb(110, 78, 191)
+    rgb(65, 46, 115),
+    rgb(108, 79, 182)
+  );
+}
+.s1-right-bottom-register a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+.s1-right-bottom-register:hover {
+  background-image: linear-gradient(
+    to right,
+    rgb(108, 79, 182),
+    rgb(65, 46, 115)
   );
 }
 
 .qick-register {
   height: 50px;
-  width: 230px;
+  width: 420px;
   position: absolute;
-  right: 20px;
+  right: 10px;
   background-color: white;
   border-radius: 10px;
 }
@@ -354,30 +357,32 @@ ul li:hover ul.dropdown {
   color: black;
   font-size: 18px;
   position: absolute;
-  left: 40px;
+  right: 40px;
   top: 10px;
   font-weight: bold;
 }
+
 .section2 {
-  height: 200px;
+  height: 180px;
   background-color: rgb(80, 53, 148);
 }
 .section2-item {
   color: white;
   float: right;
   width: 25%;
+  height: 100%;
   text-align: center;
-  padding: 40px;
+  padding: 50px;
 }
 
 .section3 {
   height: 800px;
   width: 100%;
+  padding: 30px;
 }
 
 .section3 .section3-part1 {
   height: 15%;
-  padding: 20px;
 }
 
 .section3 .section3-part2 {
@@ -398,7 +403,7 @@ ul li:hover ul.dropdown {
 .botton-section-right-outside-body {
   height: 55px;
   width: 200px;
-  margin: 20px;
+  margin: 25px 0;
   border: 2px solid rgb(228, 230, 240);
   border-radius: 5px;
 }
@@ -406,7 +411,6 @@ ul li:hover ul.dropdown {
   height: 40px;
   width: 100px;
   margin: 5px;
-
   background-color: rgb(228, 230, 240);
   border-radius: 5px;
   padding: 7px 30px;
@@ -434,26 +438,45 @@ ul li:hover ul.dropdown {
 
 .section3-text-header-left {
   float: left;
-  padding-top: 20px;
+  margin: 35px 0;
 }
 .section3-text-header-left a {
   text-decoration: none;
   font-size: 18px;
+  color: rgb(129, 91, 212);
 }
 
 .section3-part3 {
   height: 70%;
   width: 100%;
 }
+#the-final {
+  text-align: left;
+}
+#change {
+  text-align: center;
+  color: rgb(242, 119, 129);
+}
+#positive {
+  color: rgb(36, 212, 203);
+}
+#turnover {
+  text-align: left;
+}
 
+#chart {
+  text-align: center;
+}
 .section3 .sectionpart3-column {
-  width: 16%;
+  width: 16.5%;
   height: 100%;
   float: right;
+
 }
 
 .section3-part3-line-title {
   height: 10%;
+
 }
 
 .section3-part3-line-title h1 {
@@ -464,22 +487,21 @@ ul li:hover ul.dropdown {
 
 .section3-part3-line {
   height: 15%;
-  padding-top: 12px;
+  padding-top: 30px;
 }
-.nemodar-img img {
-  width: 190px;
-}
+
 .iconline {
   float: right;
 }
 .iconline img {
   height: 40px;
   width: 40px;
+  position: relative;
+  bottom: 5px;
 }
 .textline {
   position: relative;
   right: 10px;
-  padding-top: 10px;
 }
 .textline a {
   font-size: 15px;
@@ -487,20 +509,6 @@ ul li:hover ul.dropdown {
   color: black;
 }
 
-.IRT {
-  text-align: left;
-  padding-top: 12px;
-  padding-left: 35px;
-}
-.change {
-  padding-top: 10px;
-  padding-right: 30px;
-}
-.BTC {
-  padding-top: 12px;
-  text-align: left;
-  padding-left: 100px;
-}
 .shop-sale {
   height: 40px;
   width: 100px;
@@ -515,9 +523,6 @@ ul li:hover ul.dropdown {
 }
 .shop-sale:hover {
   background-color: #cfcece;
-}
-#nemodar h1 {
-  text-align: center;
 }
 
 .section4 {
