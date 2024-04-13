@@ -467,16 +467,15 @@ ul li:hover ul.dropdown {
 #chart {
   text-align: center;
 }
+
 .section3 .sectionpart3-column {
   width: 16.5%;
   height: 100%;
   float: right;
-
 }
 
 .section3-part3-line-title {
   height: 10%;
-
 }
 
 .section3-part3-line-title h1 {
@@ -512,7 +511,7 @@ ul li:hover ul.dropdown {
 .shop-sale {
   height: 40px;
   width: 100px;
-  border: 1px solid rgb(80, 53, 148);
+  border: 1px solid rgb(110, 78, 191);
   border-radius: 10px;
   text-align: center;
   padding-top: 3px;
@@ -520,9 +519,10 @@ ul li:hover ul.dropdown {
 }
 .shop-sale a {
   text-decoration: none;
+  color: rgb(110, 78, 191);
 }
 .shop-sale:hover {
-  background-color: #cfcece;
+  background-color: rgb(237, 236, 252);
 }
 
 .section4 {
