@@ -1558,10 +1558,10 @@ border-radius: 50%;
 
 }
 
-.SECTION9{
+/* .SECTION9{ */
   /* height: 800px; */
   /* background-color: rgb(242, 243, 245); */
-}
+/* } */
 
 .section9-top{
   height: 30%;
@@ -1619,6 +1619,234 @@ details summary{
  } 
 .SECTION10
 {
+  padding:20px;
   height: 800px;
   background-color: rgb(75, 50, 138);
+}
+
+
+/* تیکه کد */
+
+/* <!-- ///////////شبهعنصر دایره برای پارت هیی دایره دارند --> */
+/* <!--         
+       <div class="kelasss">
+        <p>Lorem, ipsum dolor.</p>
+        <p>Lorem, ipsum dolor.</p>
+        <p>Lorem, ipsum dolor.</p>
+        <p>Lorem, ipsum dolor.</p>
+        <p>Lorem, ipsum dolor.</p>
+        <p>Lorem, ipsum dolor.</p>
+       </div> -->
+<!-- پایان --> */
+
+
+
+/* <!-- ///////////شبهعنصر دایره برای پارت هیی دایره دارند --> */
+
+/* p{
+  padding:10px 5px;
+  margin-left:5px;
+}
+ p::before{
+  content: " ";
+  background-color:#d51c00; */
+ /* width:3px;
+ display:inline-block;
+ height: 10px;
+ padding:1px 5px;
+ margin-left:5px;
+ border-radius:50%;
+} */
+/* پایان */
+/* پایان تیکه کد */
+.box-section10-top-right-box1{
+  height: 15%;
+  /* border: 2px solid green; */
+  text-align: center;
+  padding-top: 40px;
+
+}
+.box-section10-top-right-box2{
+  height: 25%;
+  /* border: 2px solid rgb(99, 202, 99); */
+  text-align: center;
+}
+.box-section10-top-right-box3{
+  height: 50%;
+  /* border: 2px solid rgb(205, 228, 241); */
+  text-align: center;
+}
+.register-S10{
+   text-decoration: none;
+   display: inline-block;
+   background-color: #ffffff;
+   width: 200px;
+   height: 35px;
+   border-radius:5px;
+   margin: 20px;
+   padding-top: 2px;
+   color:rgb(75, 50, 138);
+
+}
+.register-S10:hover{
+  background: rgb(228, 230, 240);
+}
+
+
+.login-s10{
+  text-decoration: none;
+   display: inline-block;
+   /* background-color: #ffffff; */
+   width: 200px;
+   height: 35px;
+   border: 2px solid rgb(147, 116, 227);
+   border-radius:5px;
+   padding-top: 2px;
+   color:rgb(255, 255, 255);
+}
+
+.login-s10:hover{
+  background-color: rgb(110, 78, 191);
+}
+
+
+
+.text-s-10{
+  color: white;
+  text-decoration: none;
+}
+#phone-{
+  position: relative;
+  top: 7px;
+}
+.text-s-10:hover{
+  color: rgb(176, 149, 237);
+}
+
+
+.text-p-s10{
+  color:white;
+  padding-bottom: 10px;
+}
+
+.box-section10-top{
+  height: 80%;
+  /* border: 2px solid black; */
+}
+.box-section10-top-right{
+  width: 30%;
+  /* border: 2px solid blue; */
+  height: 100%;
+  float: right;
+}
+.box-section10-top-left{
+  width: 70%;
+  /* border: 2px solid rgb(15, 124, 138); */
+  height: 100%;
+  float: left;
+  position: relative;
+}
+
+.box-container-part10{
+  width: 120px;
+  padding: 10px;
+
+  margin: 10px 20px;
+  /* border: 2px solid red;   */
+  float: right;
+  
+}
+#barcode-10{
+  padding: 20px;
+  border-radius: 5px;
+background-color: #ffffff;
+}
+.box-images-s a{
+  padding: 5px 7px;
+}
+.title-part10{
+  border-bottom: 2px solid rgb(255, 255, 255);
+  /* width: 30px; */
+  display: inline-block;
+  color: white;
+}
+.p10-text{
+  color: white;
+  display: inline-block;
+  width: 120px;
+  padding: 7px 0;
+  text-decoration: none;
+  font-size: 11px;
+}
+
+.p10-text:hover{
+  color: rgb(176, 152, 237);
+}
+.boxcontainer-part110-top-{
+  width: 100%;
+  height: 40%;
+  /* display: inline-block; */
+  border: 2px solid wheat;
+}
+#khadamat{
+  position: absolute;
+  right: 0;
+  top: 220px;
+}
+.box-section10-bottom{
+ 
+  height:20%;
+ 
+
+}
+
+.content-s10-box-{
+
+  margin: 10px 0;
+  height: 40%;
+  border-top: 1px solid rgb(152, 130, 209);
+  border-bottom: 1px solid rgb(152, 130, 209);
+}
+.text2-s10{
+  text-align: center;
+  color: rgb(156, 156, 166);
+}
+.lang{
+  color: rgb(156, 156, 166);
+  display: inline-block;
+}
+.persian{
+  color: white;
+  text-decoration: none;
+  border-bottom: 1px solid white;
+}
+#persian-text{
+  position: relative;
+  top:10px;
+}
+.persian:hover{
+  color: rgb(156, 156, 166);
+  border-bottom:1px solid rgb(156, 156, 166);
+}
+.box-shape{
+float: left;
+padding: 15px;
+}
+.box-shape a img{
+  height: 25px;
+  width: 25px;
+  display: inline-block;
+}
+#pik1{
+  height: 25px;
+  width: 20px;
+}
+.box-shape a{
+  padding: 10px;
+}
+
+.box-shape img:hover{
+background-color: rgb(156, 156, 166);
+
+  border-radius:10px;
 }
