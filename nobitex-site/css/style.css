@@ -39,9 +39,11 @@ body {
   height: inherit;
   float: right;
   padding: 28px 5px;
+  
 }
 .logo-text a {
   text-decoration: none;
+  font-weight: bold;
 }
 
 .nav {
@@ -191,30 +193,43 @@ body {
   height: inherit;
   float: left;
   padding: 20px 0;
+  /* padding-right: 100px; */
+  border: 2px solid black;
+}
+.container-login-register{
+  border: 2px solid blue;
+  display: inline-block;
+  width: 160px;
+  position: relative;
+  right: 120px;
 }
 .login-button {
-  height: 40px;
-  width: 38%;
+  height: 35px;
+  width: 45%;
+  /* position: relative; */
+  /* left: 20px; */
+  /* float: left; */
   display: inline-block;
-  border-radius: 10px;
+  border-radius: 6px;
   text-align: center;
-  padding-top: 5px;
+  padding-top: 2px;
   border: 2px solid rgb(111, 79, 191);
   /* margin-top: 5px; */
 }
 .register-button {
-  height: 40px;
-  width: 38%;
+  height: 35px;
+  width: 45%;
+  /* float: left; */
   border: 2px solid rgb(112, 80, 191);
   display: inline-block;
-  border-radius: 10px;
+  border-radius: 6px;
   text-align: center;
   background-image: linear-gradient(
     to left,
     rgb(65, 46, 115),
     rgb(108, 79, 182)
   );
-  padding-top: 5px;
+  padding-top: 2px;
   /* margin-top: 5px; */
 }
 .login-button a {
@@ -243,6 +258,7 @@ body {
 }
 .download a {
   color: black;
+  /* float: left; */
 }
 .download a:hover {
   color: rgb(124, 95, 197);
@@ -1835,7 +1851,6 @@ details p {
   margin-right: 12px;
 }
 
-
 .img-bottom-s10 a {
   height: 100%;
   width: 100%;
@@ -1845,10 +1860,8 @@ details p {
   filter: opacity(0.5) drop-shadow(0 0 0 rgb(156, 156, 166));
 }
 
-
-
-.language-selection{
-display: inline-block;
-border: 2px solid white;
-margin-top: 12px;
+.language-selection {
+  display: inline-block;
+  border: 2px solid white;
+  margin-top: 12px;
 }
