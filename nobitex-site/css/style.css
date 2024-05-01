@@ -15,7 +15,7 @@ body {
   background-color: hsla(0, 0%, 100%, 0.48);
 
   width: 100%;
-  height: 80px;
+  height: 70px;
   padding: 0 10px;
   position: sticky;
   top: 0;
@@ -23,34 +23,31 @@ body {
 }
 
 .logo {
-  width: 10%;
+  width: 12%;
   height: inherit;
   float: right;
 }
 
 .logo-img {
-  width: 30%;
+  /* width: 100%; */
+  /* border: 2px solid   red; */
   height: inherit;
   float: right;
-  padding: 28px 0;
+  padding: 10px 0 20px 50px;
 }
-.logo-text {
-  width: 70%;
-  height: inherit;
-  float: right;
-  padding: 28px 5px;
-  
-}
-.logo-text a {
-  text-decoration: none;
-  font-weight: bold;
+
+.logo-img img {
+  height: 50px;
+  width: 120px;
+  /* border: 2px solid   rgb(0, 106, 255); */
 }
 
 .nav {
-  width: 60%;
+  width: 58%;
   height: inherit;
   float: right;
-  padding: 30px 10px;
+  padding: 25px 10px;
+  /* border: 2px solid brown; */
 }
 
 .orginal-title-text {
@@ -80,7 +77,7 @@ body {
 
 .dropdown {
   border: 2px solid rgb(128, 128, 128, 0.2);
-  border-radius: 5px;
+  border-radius: 7px;
   background-color: #ffffff;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
   padding: 10px;
@@ -88,7 +85,7 @@ body {
 
 .internal-box {
   position: relative;
-  margin-top: 50px;
+  margin-top: 45px;
 }
 .dropdown .dropdown-li-menu {
   display: inline-block;
@@ -126,6 +123,8 @@ body {
   }
   span {
     color: rgb(143, 119, 204);
+    /* color: rgb(16, 178, 56); */
+    /* transition: width 1s; */
   }
   .expand-more {
     display: none;
@@ -151,7 +150,10 @@ body {
     color: rgb(124, 95, 197);
     visibility: visible;
     opacity: 1;
-    /* border: 2px solid red; */
+    width: 25px;
+    
+    /* border: 2px solid red;  */
+    /* transition-timing-function:ease-out; */
   }
 }
 .arrow-back {
@@ -159,8 +161,23 @@ body {
   left: 0;
   top: 5px;
   visibility: hidden;
-  transition: opacity 2s;
-  opacity: 0;
+  transition: opacity 5s;
+
+  opacity: 1;
+  width: 50px;
+  /* transition: transform 0.5s ease-in; */
+  /* transition-duration: 1s; */
+}
+
+.arrow-back span {
+  transition-timing-function: ease-in;
+  border: 2px solid blue;
+  color: chartreuse;
+  width: 20px;
+  height: 20px;
+  
+  /* background: red; */
+  /* transition: width 2s; */
 }
 
 #ul-outside .box-li:hover ul.dropdown {
@@ -192,36 +209,35 @@ body {
   width: 30%;
   height: inherit;
   float: left;
-  padding: 20px 0;
-  /* padding-right: 100px; */
-  border: 2px solid black;
-}
-.container-login-register{
-  border: 2px solid blue;
-  display: inline-block;
-  width: 160px;
+  padding: 15px 0;
   position: relative;
-  right: 120px;
+}
+.container-login-register {
+  width: 220px;
+  position: absolute;
+  left: 60px;
+  /* border: 5px solid blue; */
 }
 .login-button {
   height: 35px;
-  width: 45%;
-  /* position: relative; */
-  /* left: 20px; */
-  /* float: left; */
-  display: inline-block;
+  width: 100px;
+  float: right;
   border-radius: 6px;
   text-align: center;
-  padding-top: 2px;
-  border: 2px solid rgb(111, 79, 191);
-  /* margin-top: 5px; */
+  font-size: 15px;
+  padding: 3px 0px;
+  border: 1px solid rgb(111, 79, 191);
+  margin-right: 10px;
 }
+
 .register-button {
   height: 35px;
-  width: 45%;
-  /* float: left; */
-  border: 2px solid rgb(112, 80, 191);
-  display: inline-block;
+  width: 100px;
+  font-size: 14px;
+  word-spacing: -3px;
+  padding: 3px 0px;
+  float: left;
+  border: 1px solid rgb(111, 79, 191);
   border-radius: 6px;
   text-align: center;
   background-image: linear-gradient(
@@ -229,8 +245,6 @@ body {
     rgb(65, 46, 115),
     rgb(108, 79, 182)
   );
-  padding-top: 2px;
-  /* margin-top: 5px; */
 }
 .login-button a {
   color: rgb(124, 95, 197);
@@ -248,22 +262,84 @@ body {
   );
 }
 .login-button:hover {
-  background-color: rgb(237, 236, 252);
+  background-color: rgb(243, 243, 255);
 }
 .download {
+  /* border: 3px solid yellow; */
   float: left;
   /* padding: 10px; */
-  border-right: 2px solid rgb(228, 230, 240);
-  padding: 5px;
+  /* border-right: 2px solid rgb(229, 231, 240); */
+  padding: 0 25px 0 0;
+  /* border: 2px solid red; */
 }
-.download a {
-  color: black;
-  /* float: left; */
+.download #span-download {
+  color: rgb(77, 78, 80);
+  /* background-color: red; */
+  /* padding-right: 30px; */
+  /* right:5px; */
+  border-right: 2px solid rgb(229, 231, 240);
+
+  position: relative;
+  top: 8px;
 }
-.download a:hover {
-  color: rgb(124, 95, 197);
+#span-download span {
+  padding-right: 20px;
+}
+.download #span-download:hover {
+  color: rgb(156, 149, 200);
+}
+.bottom-box {
+  height: 340px;
+  width: 200px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 14px 12px;
+  background-color: white;
+  position: relative;
+  top: 23px;
+  left: 5px;
+  display: none;
+  border-radius: 7px;
+  padding: 10px;
+  text-align: center;
+}
+.bottom-box p {
+  color: rgb(189, 189, 189);
+  /* padding-bottom: 5px; */
 }
 
+.bottom-box #seemore {
+  display: inline-block;
+  width: 170px;
+  height: 32px;
+  color: white;
+  text-decoration: none;
+  padding-top: 2px;
+  border-radius: 5px;
+  background-color: rgb(112, 80, 191);
+ letter-spacing:-1.2px;
+}
+.image-bottom-box {
+  width: 170px;
+  height: 200px;
+  padding: 20px;
+  margin: 10px auto;
+  border-radius: 5px;
+  border: 1px solid rgb(189, 189, 189);
+}
+
+.image-bottom-box img {
+  height: 100%;
+  width: 100%;
+}
+.download:hover {
+  #span-download {
+    position: relative;
+    right: 154px;
+    /* right:195px; */
+  }
+  .bottom-box {
+    display: block;
+  }
+}
 .section1 {
   height: 750px;
   background-image: linear-gradient(
@@ -1818,6 +1894,7 @@ details p {
 .lang {
   color: rgb(156, 156, 166);
   display: inline-block;
+  padding-left: 10px;
 }
 .persian {
   color: white;
@@ -1862,6 +1939,51 @@ details p {
 
 .language-selection {
   display: inline-block;
-  border: 2px solid white;
+  /* border: 2px solid white; */
   margin-top: 12px;
+  /* background-color: #f7f5f5; */
+}
+#icon-choose{
+  position: relative;
+  top: 10px;
+  /* left: 31px; */
+  display: none;
+  color: white;
+}
+.persian:focus{
+
+  #persian-text{
+    display: none;
+  }
+  #icon-choose{
+    display:inline-block;
+
+  }
+}
+
+.container-choose-lang{
+  height: 100px;
+  display: block;
+  position: relative;
+  top: 10px;
+  border-radius: 5px;
+  background-color: rgb(161,148,194);
+}
+
+.iran-british{
+  height: 20px;
+  display:block;
+  margin: 15px;
+  text-decoration: none;
+  color: black;
+  position: relative;
+  bottom: 80px; 
+  /* padding-bottom: 10px; */
+  padding: 2px;
+}
+.iran-british img{
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  /* padding: 2px; */
 }
