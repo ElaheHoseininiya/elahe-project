@@ -151,7 +151,7 @@ body {
     visibility: visible;
     opacity: 1;
     width: 25px;
-    
+
     /* border: 2px solid red;  */
     /* transition-timing-function:ease-out; */
   }
@@ -175,7 +175,7 @@ body {
   color: chartreuse;
   width: 20px;
   height: 20px;
-  
+
   /* background: red; */
   /* transition: width 2s; */
 }
@@ -315,7 +315,7 @@ body {
   padding-top: 2px;
   border-radius: 5px;
   background-color: rgb(112, 80, 191);
- letter-spacing:-1.2px;
+  letter-spacing: -1.2px;
 }
 .image-bottom-box {
   width: 170px;
@@ -1943,47 +1943,67 @@ details p {
   margin-top: 12px;
   /* background-color: #f7f5f5; */
 }
-#icon-choose{
+#icon-choose {
   position: relative;
   top: 10px;
   /* left: 31px; */
   display: none;
   color: white;
 }
-.persian:focus{
 
-  #persian-text{
-    display: none;
-  }
-  #icon-choose{
-    display:inline-block;
-
-  }
+#persian-text {
+  transition: 0.6s;
 }
 
-.container-choose-lang{
-  height: 100px;
+.persian:focus {
+  #persian-text {
+    transform: rotate(180deg);
+  }
+
+  /* .container-choose-lang{
+      opacity: 1;
+  }
+  .iran-british{
+    opacity: 1;
+  } */
+}
+
+.container-choose-lang {
+  height: 75px;
   display: block;
   position: relative;
   top: 10px;
   border-radius: 5px;
-  background-color: rgb(161,148,194);
+  background-color: rgb(161, 148, 194);
+  opacity: 0.8;
 }
 
-.iran-british{
-  height: 20px;
-  display:block;
-  margin: 15px;
+.iran-british {
+  height: 35px;
+  display: block;
+  margin: 0px 0 5px 0;
   text-decoration: none;
   color: black;
   position: relative;
-  bottom: 80px; 
-  /* padding-bottom: 10px; */
-  padding: 2px;
+  bottom: 65px;
 }
-.iran-british img{
+
+.iran-british:hover {
+  background-color: rgb(192, 196, 211);
+  border-radius: 5px;
+}
+.iran-british img {
   display: inline-block;
-  width: 20px;
-  height: 20px;
+  width: 30px;
+  height: 30px;
+  padding: 5px;
   /* padding: 2px; */
+}
+.iran {
+  position: relative;
+  bottom: 10px;
+}
+.british {
+  position: relative;
+  bottom: 10px;
 }
