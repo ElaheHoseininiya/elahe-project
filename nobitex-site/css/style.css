@@ -1547,7 +1547,7 @@ video {
 }
 
 .SECTION8 {
-  height: 550px;
+  height:800px;
   /* background-color: #adaaaa; */
   padding: 10px;
 }
@@ -1639,6 +1639,40 @@ video {
 .paragragh-S8-part {
   position: relative;
 }
+
+.color-p{
+  padding:10px 5px;
+  margin-left:5px;
+}
+.color-p::before{
+  content: " ";
+  background-color:#6f6c6c; 
+width:2px;
+ display:inline-block;
+ height: 7px;
+ padding:1px 5px;
+ margin-left:5px;
+ border-radius:50%;
+}
+
+
+.detail-s8{
+  margin-bottom: 30px;
+}
+
+
+
+
+.detail-s8 summary{
+  list-style: none;
+}
+
+
+
+
+
+
+
 #circle-1 {
   height: 7px;
   width: 7px;
@@ -1685,29 +1719,49 @@ video {
   position: relative;
   top: 2010px;
 }
-details{
-  background-image: linear-gradient(  rgb(231, 231, 232),rgb(249,247,252),rgb(249,247,252));
+/* details> summary {
 
-  /* background-color: #6c6868; */
-}
-details summary {
+  background-image: linear-gradient(black,rgb(254, 250, 250));
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+
+} */
+ /* summary::marker{
+  
+  font-size: 25px;
+ 
+ position: relative;
+ top: 100px;
+ } */
+/* summary { */
+  /* list-style-type: '^';
+  transform: rotate(180deg ); */
+/* height: 30px; */
+ /*  */
+/* } */
+
+/* details[open] > summary {
+  background-image: linear-gradient(black,rgb(0, 0, 0));
+  background-clip: text;
+  list-style-type:'^';
+  transform: rotate(360deg );
+
+
+} */
+
+
+/* details summary {
   padding: 10px;
   border: none;
   cursor: pointer;
-  list-style-type: none;
-  /* position: relative;
-  top: 100px; */
-  /* border-top-left-radius:5px; */
-  /* border-top-right-radius:5px; */
-}
-details h5 {
-  /* background-color: #eeeeee; */
-}
-details p {
-  /* background-color: #eeeeee; */
-  /* padding:10px; */
-  margin: 0;
-}
+  text-align: center;
+  /* list-style-type: none; */
+  /*  */
+/* } */ 
+
+
+
 
 /* تیکه کد */
 
