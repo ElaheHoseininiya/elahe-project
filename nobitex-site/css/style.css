@@ -1547,7 +1547,7 @@ video {
 }
 
 .SECTION8 {
-  height: 800px;
+  height: 550px;
   padding: 10px;
 }
 .heading-part8 {
@@ -1601,8 +1601,6 @@ video {
   }
 }
 
-
-
 details[open] > summary {
   .icone-mines {
     display: block;
@@ -1612,7 +1610,6 @@ details[open] > summary {
     opacity: 0;
   }
 }
-
 
 .color-p {
   padding: 10px 5px;
@@ -1629,44 +1626,27 @@ details[open] > summary {
   border-radius: 50%;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* .SECTION9{ */
-/* height: 800px; */
-/* background-color: rgb(242, 243, 245); */
-/* } */
-
-.section9-top {
-  height: 30%;
-  border: 2px solid rgb(26, 39, 112);
+.SECTION9 {
+  background-color: rgb(242, 243, 245);
 }
+
+/* .section9-top {
+  height: 30%;
+  border: 2px solid rgb(26, 39, 112); */
+/* } */
 /* 
 .icon-section-9{
   position: relative;
 }*/
-#i-s-9 {
+/* #i-s-9 {
   display: block;
-  position: relative;
-  /* top:200px; */
-  /* right:500px; */
-  /* border: 2px solid red; */
-  text-align: center;
+  position: relative; */
+/* top:200px; */
+/* right:500px; */
+/* border: 2px solid red; */
+/* text-align: center;
   color: rgb(110, 78, 191);
-}
+} */
 /* .P-S-8{
   display: none;
 }
@@ -1675,52 +1655,48 @@ details[open] > summary {
     display: block;
   }
 } */
-#focus-a {
+/* #focus-a {
   text-decoration: none;
-}
-#focus-a:focus {
+} */
+/* #focus-a:focus {
   position: relative;
   top: 2010px;
-}
-/* details> summary {
+} */
 
-  background-image: linear-gradient(black,rgb(254, 250, 250));
+.details-s9 > .summary-s9 {
+  background-image: linear-gradient(black, rgb(254, 250, 250));
   background-clip: text;
   -webkit-text-fill-color: transparent;
-
-
-} */
-/* summary::marker{
-  
+}
+.summary-s9::marker {
   font-size: 25px;
- 
- position: relative;
- top: 100px;
- } */
-/* summary { */
-/* list-style-type: '^';
-  transform: rotate(180deg ); */
-/* height: 30px; */
-/*  */
-/* } */
+  transform: rotate(360deg ); 
 
-/* details[open] > summary {
+}
+ .summary-s9 { 
+ list-style-type: '^';
+  /* transform: rotate(180deg ); */ */
+/* height: 30px; */
+
+}
+
+.details-s9[open] > .summary-s9 {
   background-image: linear-gradient(black,rgb(0, 0, 0));
   background-clip: text;
   list-style-type:'^';
   transform: rotate(360deg );
+}
 
-
-} */
-
-/* details summary {
+.details-s9 .summary-s9 {
   padding: 10px;
   border: none;
   cursor: pointer;
-  text-align: center;
+  
+  /* text-align: center; */
   /* list-style-type: none; */
-/*  */
-/* } */
+  /* transform: rotate(360deg ); */
+
+ }
 
 /* تیکه کد */
 
