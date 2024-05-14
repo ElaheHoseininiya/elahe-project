@@ -1630,107 +1630,62 @@ details[open] > summary {
   background-color: rgb(242, 243, 245);
 }
 
-/* .section9-top {
-  height: 30%;
-  border: 2px solid rgb(26, 39, 112); */
-/* } */
-/* 
-.icon-section-9{
-  position: relative;
-}*/
-/* #i-s-9 {
-  display: block;
-  position: relative; */
-/* top:200px; */
-/* right:500px; */
-/* border: 2px solid red; */
-/* text-align: center;
-  color: rgb(110, 78, 191);
-} */
-/* .P-S-8{
-  display: none;
-}
-#i-s-9::focus{
-  .P-S-8{
-    display: block;
-  }
-} */
-/* #focus-a {
-  text-decoration: none;
-} */
-/* #focus-a:focus {
-  position: relative;
-  top: 2010px;
-} */
 
 .details-s9 > .summary-s9 {
   background-image: linear-gradient(black, rgb(254, 250, 250));
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-/* .box-text-derails::before{
-  list-style-type:'^';
-  transform: rotate(360deg ); 
-} */
- .summary-s9 { 
- /* list-style-type: none;  */
-  /* transform: rotate(180deg ); */ 
-/* height: 30px; */
 
- }
-.summary-s9::marker {
-  color: #e162bf;
-  font-size: 1.2em;
- 
-}
-/* ******* */
-.summary-s9{
+
+.summary-s9 {
   list-style-type: none;
 }
-/* .summary-s9::after{  */
-  /* content: '⋁  ' ; */
-  /* list-style-type: '⋁  '; */
-  
-/*  */
-/* } */
-.iconnss::before{
+
+.details-s9::after {
+  content:' ∨';
+ /* margin: 100px auto; */
+  position: relative;
+  bottom: 10px;
+  left: 50%;
+  right: 50%;
+  color: rgb(110, 78, 191);
+  font-weight: bold;
+}
+
+/* .iconnss::before{
   content: '⋁  ' ; 
    margin: 500px;
-
-}
-.iconnss::after{
+  color: rgb(110, 78, 191);
+} */
+/* .iconnss::after{
   content: '⋀  ' ;
   margin: 500px;
+  color: rgb(110, 78, 191);
 
+} */
+.details-s9[open]::after {
+  content: "∧";
+
+  color: rgb(110, 78, 191);
+  /* transform: rotate(360deg ); */
+  position: relative;
+  bottom: 10px;
+  left: 50%;
+  right: 50%;
+  font-weight: bold;
 }
-
-.details-s9[open] > .summary-s9{
-  background-image: linear-gradient(black,rgb(0, 0, 0));
+.details-s9[open] > .summary-s9 {
+  background-image: linear-gradient(black, rgb(0, 0, 0));
   background-clip: text;
   /* list-style-type: '⋀ ';  */
 }
-/* ***** */
-
-/* summary::after {
-  content: '';
-  width: 0; 
-  height: 0; 
-  border-top: 10px solid #15171b;
-  border-inline: 7px solid transparent;
-  transition: 0.2s;
-} */
-
 
 .details-s9 .summary-s9 {
   padding: 10px;
   border: none;
   cursor: pointer;
-  
-  /* text-align: center; */
-  /* list-style-type: none; */
-  /* transform: rotate(360deg ); */
-
- }
+}
 
 /* تیکه کد */
 
