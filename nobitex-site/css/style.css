@@ -13,7 +13,6 @@ body {
 .menu {
   backdrop-filter: blur(40px);
   background-color: hsla(0, 0%, 100%, 0.48);
-
   width: 100%;
   height: 70px;
   padding: 0 10px;
@@ -89,7 +88,7 @@ body {
 .dropdown .dropdown-li-menu {
   display: inline-block;
   padding: 0;
-  width: 160px;
+  width: 165px;
   position: relative;
 }
 .dropdown a {
@@ -107,11 +106,13 @@ body {
 }
 .expand-more {
   display: inline-block;
+ 
 }
 .expand_less {
   display: inline-block;
   color: rgb(174, 157, 218);
   display: none;
+
 }
 
 #ul-outside .box-li:hover {
@@ -175,7 +176,7 @@ body {
   height: 230px;
 }
 #leader .dropdown-li-menu {
-  width: 190px;
+  width: 200px;
 }
 
 #emkanat {
@@ -456,7 +457,7 @@ body {
   height: 200px;
   background-color: rgb(80, 53, 148);
 }
-.section2-item {
+.section2 .section2-item {
   color: white;
   float: right;
   width: 25%;
@@ -465,7 +466,9 @@ body {
   font-size: 15px;
   padding-top: 60px;
 }
-
+.section2 .section2-item p{
+  font-size: 25px;
+}
 .section3 {
   height: 800px;
   width: 100%;
@@ -491,14 +494,14 @@ body {
   float: left;
 }
 
-.botton-section-right-outside-body {
+.bottom-section3-right-outside-body {
   height: 55px;
   width: 200px;
   margin: 25px 0;
   border: 2px solid rgb(228, 230, 240);
   border-radius: 5px;
 }
-.botton-section3-right-inside {
+.bottom-section3-right-inside {
   height: 40px;
   width: 100px;
   margin: 5px;
@@ -506,7 +509,7 @@ body {
   border-radius: 5px;
   padding: 7px 30px;
 }
-.botton-section3-right-inside a {
+.bottom-section3-right-inside a {
   text-decoration: none;
   color: black;
 }
@@ -582,26 +585,27 @@ body {
   padding-top: 30px;
 }
 
-.iconline {
+.section3-part3-line  .iconline {
   float: right;
 }
-.iconline img {
+.section3-part3-line .iconline img {
   height: 40px;
   width: 40px;
   position: relative;
   bottom: 5px;
+  
 }
-.textline {
+.section3-part3-line .textline {
   position: relative;
   right: 10px;
 }
-.textline a {
+.section3-part3-line .textline a {
   font-size: 15px;
   text-decoration: none;
   color: black;
 }
 
-.shop-sale {
+.sectionpart3-column  .section3-part3-line .shop-sale {
   height: 40px;
   width: 100px;
   border: 1px solid rgb(110, 78, 191);
@@ -610,7 +614,7 @@ body {
   padding-top: 3px;
   margin: 10px auto;
 }
-.shop-sale a {
+.sectionpart3-column  .section3-part3-line  .shop-sale a {
   text-decoration: none;
   color: rgb(110, 78, 191);
 }
@@ -668,7 +672,7 @@ body {
   width: 30%;
   height: 25%;
 }
-.title .titlea {
+.title .title-a {
   height: 100%;
   width: 100%;
   border: 1px solid rgb(228, 230, 240);
