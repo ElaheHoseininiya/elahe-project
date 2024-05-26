@@ -142,29 +142,24 @@ body {
 }
 .dropdown .dropdown-li-menu:hover {
   .arrow-back {
-    color: rgb(124, 95, 197);
     visibility: visible;
     opacity: 1;
     width: 25px;
-
+    
   }
+
 }
 .arrow-back {
   position: absolute;
-  left: 0;
+  left: 0px;
   top: 5px;
+  color: rgb(124, 95, 197);
   visibility: hidden;
-  transition: opacity 5s;
-  opacity: 1;
-  width: 50px;
-
-}
-
-.arrow-back span {
-  transition-timing-function: ease-in;
-  width: 20px;
-  height: 20px;
-
+  opacity:0;
+  transition-property: width , opacity;
+  transition-duration: 1s;
+  width:35px;
+  height: 28px;
 }
 
 #ul-outside .box-li:hover ul.dropdown {
@@ -563,6 +558,9 @@ body {
 }
 .chart-img img {
   width: 100px;
+ 
+
+  filter: invert(42%) sepia(56%) saturate(6477%) hue-rotate(244deg) brightness(88%) contrast(84%);
 }
 .section3 .sectionpart3-column {
   width: 16.5%;
@@ -1468,7 +1466,7 @@ video {
 }
 
 .SECTION8 {
-  height: 550px;
+  /* height: 700px; */
   padding: 10px;
 }
 .heading-part8 {
@@ -1479,21 +1477,30 @@ video {
   position: relative;
   height: 100%;
   margin: auto;
-  padding: 20px;
+  /* padding: 10px; */
 }
 .detail-s8 {
   margin-bottom: 30px;
+  cursor:pointer ;
+
+
 }
 
 .detail-s8 summary {
   list-style: none;
+  height: 50px;
+  padding: 12px 10px;
+
+}
+.detail-s8 summary:hover{
+ background-color:rgb(247, 248, 252);
 }
 .adds {
   display: inline-block;
   position: absolute;
   left: 0;
   height: 30px;
-  width: 25px;
+  width: 30px;
   text-align: center;
   border-radius: 50%;
 }
@@ -1549,6 +1556,8 @@ details[open] > summary {
 
 .SECTION9 {
   background-color: rgb(242, 243, 245);
+  padding: 10px;
+
 }
 
 .summary-s9 {
@@ -1757,7 +1766,7 @@ details.details-s9 {
   width: 120px;
   padding: 7px 0;
   text-decoration: none;
-  font-size: 11px;
+  font-size: 9px;
 }
 
 .p10-textbelow:hover {
