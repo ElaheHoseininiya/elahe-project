@@ -5,7 +5,21 @@
 }
 body {
   font-family: "Vazirmatn", sans-serif;
+  /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; */
+  /* font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; */
+  overflow-x: hidden;
+ 
+
 }
+::-webkit-scrollbar{
+  width:10px;
+  background-color: rgb(242, 243, 245);
+}
+::-webkit-scrollbar-thumb {
+  background:rgb(184, 184, 184);
+  border-radius: 10px;
+}
+
 .container {
   height: 100%;
   margin-bottom: 20px;
@@ -28,7 +42,6 @@ body {
 }
 
 .logo-img {
-
   height: inherit;
   float: right;
   padding: 10px 0 20px 50px;
@@ -37,7 +50,6 @@ body {
 .logo-img img {
   height: 50px;
   width: 120px;
-
 }
 
 .nav {
@@ -45,7 +57,6 @@ body {
   height: inherit;
   float: right;
   padding: 25px 10px;
-
 }
 
 .orginal-title-text {
@@ -96,7 +107,6 @@ body {
 }
 #ul-outside .box-li ul.dropdown .dropdown-li-menu {
   display: block;
-
 }
 
 #ul-outside .box-li ul.dropdown {
@@ -106,13 +116,11 @@ body {
 }
 .expand-more {
   display: inline-block;
- 
 }
 .expand_less {
   display: inline-block;
   color: rgb(174, 157, 218);
   display: none;
-
 }
 
 #ul-outside .box-li:hover {
@@ -121,7 +129,6 @@ body {
   }
   span {
     color: rgb(143, 119, 204);
-
   }
   .expand-more {
     display: none;
@@ -132,22 +139,18 @@ body {
 }
 .dropdown .dropdown-li-menu a {
   padding: 5px;
-
 }
 .dropdown .dropdown-li-menu a:hover {
   background-color: rgb(237, 233, 247);
   font-weight: bold;
   border-radius: 5px;
-
 }
 .dropdown .dropdown-li-menu:hover {
   .arrow-back {
     visibility: visible;
     opacity: 1;
     width: 25px;
-    
   }
-
 }
 .arrow-back {
   position: absolute;
@@ -155,10 +158,10 @@ body {
   top: 5px;
   color: rgb(124, 95, 197);
   visibility: hidden;
-  opacity:0;
-  transition-property: width , opacity;
+  opacity: 0;
+  transition-property: width, opacity;
   transition-duration: 1s;
-  width:35px;
+  width: 35px;
   height: 28px;
 }
 
@@ -404,7 +407,7 @@ body {
   border: none;
   border-radius: 10px;
   background-image: linear-gradient(
-    to right,
+    to left,
     rgb(65, 46, 115),
     rgb(108, 79, 182)
   );
@@ -419,7 +422,7 @@ body {
 }
 .s1-right-bottom-register:hover {
   background-image: linear-gradient(
-    to right,
+    to left,
     rgb(108, 79, 182),
     rgb(65, 46, 115)
   );
@@ -450,10 +453,29 @@ body {
 
 .section2 {
   height: 200px;
-  background-color: rgb(80, 53, 148);
+  margin-bottom: 100px;
+  position: relative;
+  
+}
+
+.section2 video{
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height:100%;
+  position: absolute;
+  z-index: -1000;
+  border: none;
+
+}
+.container-video-section2{
+  width: 100%;
+  height: auto;
+  position: absolute;
+  z-index: 1000;
 }
 .section2 .section2-item {
-  color: white;
+  color: rgb(255, 255, 255);
   float: right;
   width: 25%;
   height: 100%;
@@ -461,7 +483,7 @@ body {
   font-size: 15px;
   padding-top: 60px;
 }
-.section2 .section2-item p{
+.section2 .section2-item p {
   font-size: 25px;
 }
 .section3 {
@@ -558,14 +580,15 @@ body {
 }
 .chart-img img {
   width: 100px;
- 
 
-  filter: invert(42%) sepia(56%) saturate(6477%) hue-rotate(244deg) brightness(88%) contrast(84%);
+  filter: invert(42%) sepia(56%) saturate(6477%) hue-rotate(244deg)
+    brightness(88%) contrast(84%);
 }
 .section3 .sectionpart3-column {
   width: 16.5%;
   height: 100%;
   float: right;
+  
 }
 
 .section3-part3-line-title {
@@ -583,7 +606,7 @@ body {
   padding-top: 30px;
 }
 
-.section3-part3-line  .iconline {
+.section3-part3-line .iconline {
   float: right;
 }
 .section3-part3-line .iconline img {
@@ -591,7 +614,6 @@ body {
   width: 40px;
   position: relative;
   bottom: 5px;
-  
 }
 .section3-part3-line .textline {
   position: relative;
@@ -603,7 +625,7 @@ body {
   color: black;
 }
 
-.sectionpart3-column  .section3-part3-line .shop-sale {
+.sectionpart3-column .section3-part3-line .shop-sale {
   height: 40px;
   width: 100px;
   border: 1px solid rgb(110, 78, 191);
@@ -612,7 +634,7 @@ body {
   padding-top: 3px;
   margin: 10px auto;
 }
-.sectionpart3-column  .section3-part3-line  .shop-sale a {
+.sectionpart3-column .section3-part3-line .shop-sale a {
   text-decoration: none;
   color: rgb(110, 78, 191);
 }
@@ -673,7 +695,7 @@ body {
 .title .title-a {
   height: 100%;
   width: 100%;
-  border: 1px solid rgb(228, 230, 240);
+  border-bottom: 1px solid rgb(228, 230, 240);
   display: inline-block;
 }
 
@@ -695,7 +717,6 @@ body {
   left: 0;
   width: 70%;
   bottom: 20%;
-
 }
 #ul-section5 .title:hover {
   .ul-drop {
@@ -704,7 +725,6 @@ body {
 }
 
 .ul-drop2 {
- 
   height: 80%;
   position: absolute;
   left: 0;
@@ -720,7 +740,6 @@ body {
 }
 
 .ul-drop3 {
- 
   height: 80%;
   position: absolute;
   left: 0;
@@ -737,7 +756,6 @@ body {
 }
 
 .ul-drop4 {
-
   height: 80%;
   position: absolute;
   left: 0;
@@ -785,7 +803,8 @@ ul {
 .top span {
   background-color: rgb(255, 174, 0);
   border-radius: 20px;
-  width: 50px;
+  width: 40px;
+  font-size: 15px;
   text-align: center;
   display: inline-block;
 }
@@ -1072,7 +1091,6 @@ ul {
 }
 .description-title-1-ul-drop4-top {
   height: 150px;
-
 }
 .description-title-1-ul-drop4-top p {
   color: rgb(138, 138, 138);
@@ -1356,9 +1374,8 @@ ul {
   width: 60%;
   height: 100%;
   float: right;
-
 }
-video {
+.-video video {
   border: 2px solid black;
   border-radius: 10px;
   width: 550px;
@@ -1481,19 +1498,16 @@ video {
 }
 .detail-s8 {
   margin-bottom: 30px;
-  cursor:pointer ;
-
-
+  cursor: pointer;
 }
 
 .detail-s8 summary {
   list-style: none;
   height: 50px;
   padding: 12px 10px;
-
 }
-.detail-s8 summary:hover{
- background-color:rgb(247, 248, 252);
+.detail-s8 summary:hover {
+  background-color: rgb(247, 248, 252);
 }
 .adds {
   display: inline-block;
@@ -1557,7 +1571,6 @@ details[open] > summary {
 .SECTION9 {
   background-color: rgb(242, 243, 245);
   padding: 10px;
-
 }
 
 .summary-s9 {
@@ -1576,7 +1589,6 @@ details.details-s9 {
   color: rgb(110, 78, 191);
   font-weight: bold;
 }
-
 
 .details-s9[open]::after {
   content: "∧";
@@ -1837,7 +1849,6 @@ details.details-s9 {
   display: inline-block;
   margin-top: 12px;
 }
-
 
 #persian-text {
   transition: 0.6s;
