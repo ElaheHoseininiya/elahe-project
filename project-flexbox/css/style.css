@@ -15,7 +15,7 @@ body {
 
   width: 900px;
   height: 100px;
-  background-color: lightgrey;
+  
 }
 .header-top {
   display: flex;
@@ -101,7 +101,6 @@ body {
 }
 
 .host-item-title {
-
   position: absolute;
   top: -15px;
   background-color: #288ed9;
@@ -113,4 +112,40 @@ body {
   left: 0;
   border-radius: 25px;
   padding: 5px;
+}
+.feature {
+  display: flex;
+  align-items: center;
+  padding: 20px 50px;
+}
+.feature-right {
+  width: 50%;
+}
+.feature-right-title {
+  color: #288ed9;
+  margin: 50px 0 10px;
+}
+.feature-right-des {
+  color: #7e7e7e;
+  text-align: justify;
+  line-height: 27px;
+}
+.feature-left {
+  width: 50%;
+  padding: 10px 20px;
+}
+.feature:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.footer-section {
+  text-align: center;
+  padding: 50px 0px;
+  color: #999;
+}
+
+
+.socials i {
+  font-size: 25px;
+  padding: 10px;
 }
