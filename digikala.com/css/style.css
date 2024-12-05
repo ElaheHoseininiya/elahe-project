@@ -138,6 +138,8 @@ body {
 }
 
 .ul-box-menu {
+
+  display: flex;
   height: 100%;
   width: 100%;
   /* width: 100%; */
@@ -148,10 +150,12 @@ body {
   border: 2px solid green;
 }
 .li-box {
-  float: right;
+ /* display: flex; */
+ /* flex-direction: row; */
+  /* float: right; */
     width: 10%;
     height: 100%;
-    border: 2px solid red;
+    border: 2px solid rgb(255, 0, 221);
   /* display: flex; */
   /* justify-content: center; */
   /* align-items: center; */
@@ -238,10 +242,18 @@ body {
 }
 
 
+table{
+  border: 2px solid black;
+  width: 25%;
+}
 
 
-
-
+.mobile {
+  border: 2px solid green;
+  /* width: 25%; */
+  /* float:right; */
+  display: flex;
+}
 
 
 
