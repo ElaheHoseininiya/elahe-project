@@ -220,8 +220,10 @@ body {
 .ul-inside{
   display: flex;
   flex-direction: column;
-  border: 2px solid blue;
-  width: 500PX;
+  border: 10px solid blue;
+  width: 500px;
+  height: 400px;
+/* overflow: scroll; */
   display: none;
 }
 .ul-inside .li-inside1{
@@ -245,25 +247,49 @@ body {
 table{
   border: 2px solid black;
   width: 25%;
+  display:flex;
+
 }
 
 
 .mobile {
   border: 2px solid green;
   /* width: 25%; */
-  /* float:right; */
+  /* float:left;   */
   display: flex;
 }
 
+.submenu-mobile{
+  /* float:left; */
+  /* border: 5px solid rgb(148, 112, 216); */
+}
+.li-inside1{
+  /* width: 20%; */
+  /* float: right; */
+}
+
+.title-box-right{
+  border: 2px solid yellow;
+  width: 25%;
+  height: 100%;
+}
 
 
+.submenu-mobile-left{
+  border: 2px solid rgb(89, 255, 0);
+  width: 75%;
+  height:400px;
+  float: right;
+  overflow: scroll;
 
+}
+.container-li-1{
+  display: flex;
+}
+.kala-box1{
+  border: 2px solid green;
 
-
-
-
-
-
+}
 
 
 
